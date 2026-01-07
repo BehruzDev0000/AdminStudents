@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/signup.css">
+    <style type="text/tailwindcss"></style>
+</head>
+<body class="h-screen flex items-center justify-center relative">
+    <div class="notification-board hidden"></div>
+ <div class="w-[475px] flex flex-col items-center justify-center rounded-[20px] bg-white form-card px-[30px]">
+    <h2 class="font-bold text-[32px] mt-[44px] student-text relative mb-[43px] block w-full">Admin Students</h2>
+    <div class="text-center">
+        <h3 class="font-semibold text-[22px] mt-[43px]">Sign In</h3>
+        <p class="text-[14px] text-[#6C6C6C] mt-[9px]">Enter your credentials to access your account</p>
+    </div>
+    <form class="mt-[50px] signin-form w-full" autocomplete="off"> 
+        <label class="mb-[20px] block w-full"> 
+            <span class="font-medium text-[#6C6C6C] text-[14px]">Login</span>
+            <input type="text" required placeholder="Enter your login" name="login" class="outline-none rounded-[4px] border-[1px] border-[#E5E5E5] mt-[10px] w-full placeholder:text-[#CDCDCD] py-[15px] pl-[15px]">
+        </label>
+        <label class="mb-[30px] block w-full">
+            <span class="font-medium text-[#6C6C6C] text-[14px]">Password</span>
+            <input type="password" required placeholder="Enter your password" name="password"
+                   class="outline-none rounded-[4px] border-[1px] border-[#E5E5E5] mt-[10px] w-full placeholder:text-[#CDCDCD] py-[15px] pl-[15px]">
+        </label>
+        <button class="cursor-pointer bg-[#FEAF00] signup-btn font-medium text-white text-[14px] rounded-[4px] text-center w-full py-[14px] mb-[11px]" type="submit">
+            SIGN UP 
+        </button>
+        <a href="#" class="text-[14px] text-[#000000] mb-[52px] block w-full text-center">Sign up</a>
+    </form>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./../js/signin.js"></script>
+</body>
+</html>

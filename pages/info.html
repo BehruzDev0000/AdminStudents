@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/info.css">
+    <style type="text/tailwindcss"></style>
+</head>
+<body>
+    <div class="min-h-screen flex">
+     <aside class="w-67.5 bg-[#F2EAE1] pt-[18px] pb-[31px] relative">
+    <h2 class="font-bold text-[20px] ml-[23px] mb-[54px] border-l-[4px] border-[#F8D442] pl-[10px]">Admin Students</h2>
+    
+    <div class="flex flex-col items-center pb-[37px] ">
+        <div class="flex flex-col items-center mb-16 user-profile hidden">
+
+        </div>
+        
+         <button onclick="studentsRender()" class="cursor-pointer bg-[#FEAF00] rounded-[4px] flex items-center justify-center text-black font-medium py-[12px] px-8 gap-x-4 text-[14px] mb-12 w-full max-w-[193px]">
+            <img src="./../images/students-icon.svg" width="20" height="16" alt="Students">
+            Students
+        </button>
+        
+        <a href="./../pages/signin.html" class="flex items-center gap-x-3 absolute bottom-[37px]">
+            Log Out
+            <img src="./../images/logout.svg" width="20" height="20" alt="Log Out">
+        </a>
+    </div>
+</aside>
+        <div class="flex-1">
+            <header class="w-full block py-[20px] pl-[30px] pr-[51px] bg-[#F2EAE1] flex items-center justify-between">
+                <a href="#"><img src="./../images/caret-circle-down.svg" alt="Close Open sidebar icon"></a>
+                <a href="#"><img src="./../images/bell.svg" alt="Bell icon"></a>
+            </header>
+            <main class="bg-[#f8f8f8] h-full">
+                <section class="pt-[20px] pl-[30px] user-card hidden">
+
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./../js/info.js"></script>
+</body>
+</html>

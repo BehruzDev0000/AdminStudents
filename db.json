@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "abb6",
+      "login": "sdfghjk,./",
+      "password": "asdfghjk"
+    },
+    {
+      "id": "5ef1",
+      "login": "sdfghjk,.",
+      "password": "asdfghjk"
+    },
+    {
+      "id": "3b10",
+      "login": "test",
+      "password": "test"
+    },
+    {
+      "id": "1cb2",
+      "login": "test",
+      "password": "test"
+    },
+    {
+      "id": "f48b",
+      "login": "tester",
+      "password": "hello"
+    },
+    {
+      "id": "7d2d",
+      "login": "derthjk",
+      "password": "ewrtyujkl"
+    },
+    {
+      "id": "1d6f",
+      "login": "testers",
+      "password": "testers"
+    },
+    {
+      "id": "cc25",
+      "login": "tester",
+      "password": "tester"
+    },
+    {
+      "id": "ea03",
+      "login": "testers",
+      "password": "hello"
+    },
+    {
+      "id": "f51b",
+      "login": "testersmen",
+      "password": "hellobro"
+    },
+    {
+      "id": "6ba1",
+      "login": "news",
+      "password": "news"
+    },
+    {
+      "id": "e168",
+      "login": "test.12",
+      "password": "test.12"
+    },
+    {
+      "id": "6fd2",
+      "login": "test123",
+      "password": "test123"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "2",
+      "login": "test123",
+      "password": "test123",
+      "firstName": "test",
+      "lastName": "test",
+      "img": "blob:http://127.0.0.1:5500/f33490a6-1efc-4f81-a40b-0acdb89656dc",
+      "role": "admin"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "login": "admin",
+      "password": "password",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "login": "admin2",
+      "password": "password2",
+      "role": "superadmin"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "image": ",",
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test@gmail.com",
+      "phone": "1234567890",
+      "enrollNumber": "test",
+      "img": "https://picsum.photos/id/237/65/65",
+      "date": "13 October"
+    }
+  ]
+}

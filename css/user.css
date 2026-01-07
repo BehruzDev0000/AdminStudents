@@ -1,0 +1,91 @@
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.students-head {
+    display: grid;
+    grid-template-columns:
+        72px       
+        1.4fr     
+        1.6fr      
+        1.4fr      
+        1.8fr     
+        1.4fr      
+        56px
+        80px;
+
+
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.students-head th {
+    text-align: left;
+    padding: 8px 12px;
+}
+
+
+
+.student-row {
+    display: grid;
+    grid-template-columns:
+        72px
+        1.4fr
+        1.6fr
+        1.4fr
+        1.8fr
+        1.4fr
+        56px
+        80px;
+
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.student-row:hover {
+    background: #f5f7fa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.student-row td {
+    min-width: 0; 
+    font-size: 12px;   
+    font-weight: 400;      
+    padding: 15px 12px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.student-row td.photo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.student-row td.email {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.student-row td.phone,
+.student-row td.enroll {
+    white-space: nowrap;
+    letter-spacing: 0.3px;
+}
+
+.student-row td.actions {
+    gap: 14px;
+    color: #f59e0b;
+    cursor: pointer;
+}
